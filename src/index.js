@@ -8,7 +8,10 @@ import Calculator from "./main/Calculator";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Calculator></Calculator>
+    <div>
+      <h3>Calculator</h3>
+      <Calculator></Calculator>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
